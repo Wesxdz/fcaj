@@ -109,7 +109,7 @@ Transform:
   m_GameObject: {fileID: 2915532367378622982}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 567030318594988017}
@@ -129,12 +129,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6550d9486f0083da0929321e1fcfde04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stairInnerRadius: 2
-  stairOuterRadius: 7
-  totalHeight: 20
-  stairHeight: 1
+  stairInnerRadius: 0.2
+  stairOuterRadius: 0.6
+  totalHeight: 1
+  stairHeight: 0.1
   stairsPerRotation: 16
   radialTriangles: 72
+  growthRate: 0.3
   dirMult: 1
   innerCylinderObject: {fileID: 4387921913151352888}
   stairsObject: {fileID: 1270195447519498944}

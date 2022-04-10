@@ -39,6 +39,9 @@ public class GenerateSpiralStaircase : MonoBehaviour
 
     public int radialTriangles = 36;
 
+    public float growthRate;
+
+
     public int dirMult = 1;
 
     public GameObject innerCylinderObject;
@@ -171,5 +174,11 @@ public class GenerateSpiralStaircase : MonoBehaviour
                 gen.tris.Add(triangleCount+i+2);
             } 
         }
+    }
+
+    void Update()
+    {
+        totalHeight += Time.deltaTime * growthRate;
+        GenerateMesh();
     }
 }
