@@ -1,2 +1,5 @@
 *.blend filter=lfs diff=lfs merge=lfs -text
 *.blend1 filter=lfs diff=lfs merge=lfs -text
+vase_render_environment.blend filter=lfs diff=lfs merge=lfs -text
+vorpal_hexapod.blend filter=lfs diff=lfs merge=lfs -text
+Clay[[:space:]]3.Doh[[:space:]]RC1[[:space:]]_[[:space:]]Blender[[:space:]]3.1[[:space:]]_[[:space:]]Asset[[:space:]]Browser[[:space:]]Support.blend filter=lfs diff=lfs merge=lfs -text
